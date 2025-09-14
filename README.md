@@ -112,24 +112,6 @@ Feature Importance Plot: Validates that several engineered features (e.g., Stres
 
 Performance Comparison Bar Chart: Visually demonstrates the improvement gained from feature engineering.
 
-📁 Project Structure
-text
-crop-yield-prediction/
-│
-├── data/
-│   ├── farmer_data.csv          # Farmer Advisor Dataset
-│   └── market_data.csv          # Market Researcher Dataset
-│
-├── notebooks/
-│   └── agri-analysis.ipynb  # Main analysis notebook
-│
-├── models/
-│   └── random_forest_model.pkl  
-│
-├── results/
-│   ├── performance_metrics.txt  # Saved evaluation metrics
-│   └── plots/                   # Folder containing generated visualizations
-
 🔮 Future Work
 Hyperparameter Tuning: Use GridSearchCV or RandomizedSearchCV to further optimize the Random Forest model.
 
