@@ -14,14 +14,14 @@ Financial Forecasting: Estimating revenue and profitability based on expected yi
 
 Market Strategy: Understanding how broader market conditions (supply, demand, competition) might interact with farm-level decisions to impact output.
 
-📊 Datasets
+📊 Datasets -
 The project utilizes two complementary datasets:
 
-Farmer Advisor Dataset: Contains farm-specific and environmental data.
+1. Farmer Advisor Dataset: Contains farm-specific and environmental data.
 
 Farm_ID, Soil_pH, Soil_Moisture, Temperature_C, Rainfall_mm, Crop_Type, Fertilizer_Usage_kg, Pesticide_Usage_kg, Crop_Yield_ton (Target), Sustainability_Score
 
-Market Researcher Dataset: Contains broader market and economic context.
+2. Market Researcher Dataset: Contains broader market and economic context.
 
 Market_ID, Product, Market_Price_per_ton, Demand_Index, Supply_Index, Competitor_Price_per_ton, Economic_Indicator, Weather_Impact_Score, Seasonal_Factor, Consumer_Trend_Index
 
