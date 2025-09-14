@@ -5,7 +5,7 @@ Crop Yield Prediction with Advanced Feature Engineering
 📖 Project Overview
 This project aims to build a highly accurate machine learning model to predict crop yield (Crop_Yield_ton). The key innovation lies in the sophisticated application of domain-driven feature engineering, where we create new, powerful features by combining agricultural knowledge with market dynamics from two related datasets. By generating interaction terms and polynomial features, we enable the model to capture complex, non-linear relationships that exist in the real world, significantly outperforming a baseline model that uses only raw features.
 
-🎯 Business Objective
+🎯 Business Objective :
 To provide farmers and agricultural advisors with a reliable tool for predicting crop yield. This can aid in:
 
 Resource Planning: Optimizing the use of fertilizers, pesticides, and water.
