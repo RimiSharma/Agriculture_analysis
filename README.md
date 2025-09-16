@@ -58,7 +58,7 @@ Rationale: Encodes the fundamental market force driving prices.
 
 
 
-🛠️ Installation & Setup
+### 🛠️ Installation & Setup
 Clone the repository:
 
 bash
@@ -72,16 +72,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install required dependencies:
 
 
-🚀 Usage
+### 🚀 Usage
 Data Preparation: Place your farmer_advisor_dataset.csv and market_researcher_dataset.csv files in the project directory.
 
 Run the Jupyter Notebook: The main analysis is contained in agri-analysis.ipynb.
-
-Execute the code cells: The notebook is structured linearly:
-
-Load and explore datasets.
-
-Merge datasets on Crop_Type.
 
 Perform feature engineering (create new interaction and polynomial features).
 
@@ -90,8 +84,6 @@ Train a baseline Linear Regression model.
 Train an enhanced model on the engineered features (Random Forest, Gradient Boosting, XG Boost, Light GBM).
 
 Evaluate and compare models.
-
-Generate insightful visualizations.
 
 ### 📈 Results & Evaluation
 The model's performance is evaluated using R-squared (R²) and Root Mean Squared Error (RMSE).
