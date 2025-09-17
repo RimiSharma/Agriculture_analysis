@@ -103,8 +103,10 @@ Feature Importance Plot: Validates that several engineered features (e.g., Stres
 Performance Comparison Bar Chart: Visually demonstrates the improvement gained from feature engineering.
 
 ### 🔮 Future Work
-1. Hyperparameter Tuning: Use GridSearchCV or RandomizedSearchCV to further optimize the Random Forest model.
+1. Validating Random Forest model perfect score (R² = 1.0000 and RMSE = 0.000) using cross-validation, train-test split with holdout set, data leakage check, feature importance analysisand residual analysis.
+   
+2. Hyperparameter Tuning: Use GridSearchCV or RandomizedSearchCV to further optimize the Random Forest model.
 
-2. Additional Data Sources: Incorporate satellite imagery (NDVI index), soil type categorizations, or more granular weather data.
+3. Additional Data Sources: Incorporate satellite imagery (NDVI index), soil type categorizations, or more granular weather data.
 
-3. Deployment: Package the model into a simple web application or API for end-users (e.g., farmers) to input their data and get yield predictions.
+4. Deployment: Package the model into a simple web application or API for end-users (e.g., farmers) to input their data and get yield predictions.
